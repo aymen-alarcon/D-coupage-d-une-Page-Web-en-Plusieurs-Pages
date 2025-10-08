@@ -296,6 +296,15 @@
             padding: 2rem;
         }
 
+        .back-btn{
+            margin: 2rem 2rem 0rem 2rem;
+            cursor: pointer;
+            padding: .5rem;
+            background-color: #f0f0f0;
+            border: 1px solid;
+            border-radius: 5px;
+        }
+
         /* Équipes */
         .teams-grid {
             display: grid;
