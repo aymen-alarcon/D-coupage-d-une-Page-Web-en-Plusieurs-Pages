@@ -8,7 +8,25 @@
 </head>
 <body>
     <button class="back-btn" onclick="window.history.back()">Go Back</button>
-    <footer id="contact">
+    <div class="form" style="margin-bottom: 2rem;">
+        <h1 style="text-align: center; margin-top: 20vh;"  class="section-title">Contact Form</h1><br>
+        <form action="tournois.html">
+            <div class="Inscription_box">
+                <div class="name">
+                    <label for="name1" style="margin-right: 5px;">First name</label>
+                    <input type="text" id="name1" placeholder="First Name">
+                    <label for="name2" style="margin-right: 5px;">Last name</label>
+                    <input type="text" id="name2" placeholder="Last Name">
+                </div>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="exmaple@132.com">
+                <label for="age">Message</label>
+                <textarea name="" id=""></textarea>
+            </div><br>
+            <button style="padding: .5rem;width: 10rem;" type="submit">Submit</button>
+        </form>
+    </div>
+        <footer id="contact">
         <div class="footer-content">
             <div class="footer-section">
                 <h4>E-Arena</h4>
@@ -51,4 +69,4 @@
         </div>
     </footer>
 </body>
-</html>    
+</html>
