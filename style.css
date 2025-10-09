@@ -313,6 +313,35 @@
             gap: 10px;
         }
 
+        img{
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 30vw;
+            height: 30vh;
+        }
+        .header{
+            margin: 20vh 2rem 2rem 15rem;
+    text-align: center;
+    display: flex
+;
+    gap: 20px;
+        }
+
+        .class{
+            width: 28vw;
+    padding-top: 10.5rem;
+    text-align: left;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+        }
+
+        img{
+            width: 28vw;
+    height: 42vh;
+        }
+
         /* Équipes */
         .teams-grid {
             display: grid;
