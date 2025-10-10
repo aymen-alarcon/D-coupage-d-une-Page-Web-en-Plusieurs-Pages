@@ -315,13 +315,19 @@ form {
   padding: 2rem;
 }
 
-.back-btn {
-  margin: 2rem 2rem 0rem 2rem;
+.btn-s{
+  border: none;
+  border-radius: 25px;
+  padding: 0.5rem; 
+  width: 10rem; 
   cursor: pointer;
-  padding: 0.5rem;
-  background-color: #f0f0f0;
-  border: 1px solid;
-  border-radius: 5px;
+  background: var(--gradient-2);
+  transition: 0.3s ease-in-out;
+}
+
+.btn-s:hover{
+  margin-bottom: 5px;
+  box-shadow: 0px 7px 30px red;
 }
 
 /*contact*/
@@ -522,7 +528,6 @@ footer {
 .footer-section a {
   color: var(--text-secondary);
   text-decoration: none;
-  display: block;
   margin-bottom: 0.5rem;
   transition: var(--transition);
 }
@@ -539,6 +544,7 @@ footer {
 }
 
 .social-link {
+  display: flex;
   width: 40px;
   height: 40px;
   background: var(--gradient-1);
